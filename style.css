@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sticky {
+    border-radius: 15px;
+    position: fixed;
+    left: 00px;
+    right: 0px;
+    width: 1440px;
+
+
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%)
+}
+
+.sticky nav {
+    margin: 0px;
+}
+
+.sticky ul li a {
+    font-weight: 700;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-bar li a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+}
+
+
+/* Section 1 */
+
+.section-1 {
+    margin-top: 50px;
+    text-align: center;
+
+    background-image: url("./images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.section-1 h1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.section-1-text {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.section-1-text p {
+    width: 450px;
+}
+
+.section-1-text button {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+    padding: 14px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+/* Secton 2 */
+
+.section-2 {
+    background-color: hsl(218, 28%, 13%);
+    height: 60vh;
+    padding-top: 120px;
+}
+
+.grid-container {
+    text-align: center;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 480px 480px;
+    grid-column-gap: 120px;
+    grid-row-gap: 60px;
+
+}
+
+.card-heading {
+    padding: 10px;
+}
+
+
+/* Section 3 */
+
+.section-3 {
+    background-color: hsl(218, 28%, 13%);
+}
+
+.flex-container {
+    padding-bottom: 100px;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productive-text {
+    margin-left: 90px;
+    width: 600px;
+}
+
+.productive-text h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 35px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.productive-text p {
+    margin-bottom: 20px;
+}
+
+.productive-text a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 150px;
+    text-decoration: none;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+}
+
+
+/* Tab component */
+
+.section-5{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5-heading {
+    font-size: 30px;
+    margin-bottom: 80px;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+.tabs {
+    width: 900px;
+    margin: auto;
+    padding-bottom: 80px;
+    background-color: hsl(218, 28%, 13%);
+    border-radius: 15px;
+}
+
+.button-tabs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.tab-button {
+    width: 100%;
+}
+
+.button-tabs button {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+    padding: 14px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+
+    opacity: 0.4;
+}
+
+.button-tabs button.tab-button-active {
+    color: hsl(218, 28%, 13%);
+    transform: translateY(-20%);
+    opacity: 1;
+}
+
+.content {
+    display: none;
+    padding: 20px 20px;
+}
+
+.content.active {
+    display: block;
+    border: 3px solid hsl(176, 68%, 64%);
+    border-radius: 15px;
+}
+
+
+
+
+/* Footer */
+
+.flex-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.pages ul, .contact ul {
+    list-style-type: none;
+}
+
+
+/* //////////////////////// */
+
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
+.section {
+    transition: transform .8s, opacity .8s;
+}
+
+
+
+
+
+

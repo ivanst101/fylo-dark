@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Raleway font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Open sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Fylo Landing Page</title>
+</head>
+<body>
+
+        <div class="container">
+
+        <!-- Navbar -->
+            <nav class="nav">
+                <img src="./images/logo.svg" alt="Fylo logo">
+                <ul class="nav-bar">
+                    <li class="nav-item"><a class="nav-link" href="#section-2">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-3">Operations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-5">Benefits</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- Section 1 -->
+        <section class="section-1" id="section-1">
+            <img src="./images/illustration-intro.png" alt="">
+            <div class="section-1-text">
+                <h1>ALL your files in one secure Location, accessible anywhere.</h1>
+                <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+                <button id="get-started-btn">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="section section-2" id="section-2">
+            <div class="grid-container">
+
+                <div class="files-card">
+                    <img src="./images/icon-access-anywhere.svg" alt="icon-access-anywhere">
+                    <h4 class="card-heading">Access your files, anywhere</h4>
+                    <p>The ability to use a smartphone. tablet. or computer to access your account means your files follow you everywhere.</p>
+                </div>
+
+                <div class="security-card">
+                    <img src="./images/icon-security.svg" alt="icon-security">
+                    <h4 class="card-heading">Security you can trust</h4>
+                    <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+                </div>
+
+                <div class="collaboration-card">
+                    <img src="./images/icon-collaboration.svg" alt="icon-collaboration">
+                    <h4 class="card-heading">Real-time collaboration</h4>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                </div>
+
+                <div class="store-card">
+                    <img src="./images/icon-any-file.svg" alt="icon-any-file">
+                    <h4 class="card-heading">Store any type of file</h4>
+                    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+                </div>
+
+            </div>
+        </section>
+
+                <!-- Section 3 -->
+                <section class="section section-3" id="section-3">
+                    <div class="flex-container">
+                        <div class="productive-image">
+                            <img src="./images/illustration-stay-productive.png" alt="illustration-stay-productive">
+                        </div>
+                        <div class="productive-text">
+                            <h2>Stay productive, wherever you are</h2>
+                            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                            <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Tab component -->
+                
+                <section class="section section-5" id="section-5">
+                    
+                <h2 class="section-5-heading">Keep everything at your fingertips</h2>
+
+                <div class="tabs">
+                    <div class="button-tabs">
+                        <button class="tab-button tab-button-active" data-id="organisation">Simple organisation</button>
+                        <button class="tab-button" data-id="access">Anytime access</button>
+                        <button class="tab-button" data-id="security">Seamless security</button>
+                        <button class="tab-button" data-id="business">Manage your business</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <p class="content active" id="organisation">More organizations take advantage of the benefits of using a cloud-based file-sharing system. Cloud-based file sharing allows you to control which people can access, edit, or move the files your company stores and share those files with stakeholders in any location. This guide outlines the benefits of file sharing in the cloud to help you consider whether switching to cloud storage is best for your company.</p>
+                        <p class="content" id="access">With cloud-based file sharing, files are much easier to create, edit, and share. Instead of relying on on-premises servers and IT infrastructure, companies with a cloud-based file system make their content instantly accessible to any team members who need them. Cloud file systems are accessible through the internet, allowing your people to locate and open them from any location as long as they have a computer, tablet, or phone with an internet connection.</p>
+                        <p class="content" id="security">Understanding how to improve information security is critical for protecting your valuable content. The average cost of a data breach in the United States was $9.44 million in 2022, making cybersecurity a high priority for companies across industries. Hackers may use ransomware attacks and other viruses to access critical content. Your company files are also vulnerable to insider threats. People with legitimate access to files could have malicious intent to leak them for financial gain or could fall victim to phishing scams.</p>
+                        <p class="content" id="business">Cost is one of the most significant downsides of using an on-premises file storage solution. The initial setup costs are high because you need to purchase and install large servers and hardware to store your files. The size of these servers depends on your company's file storage needs. Running on-premises servers also requires an in-house IT team that can manage and mitigate any issues that arise.</p>
+                    </div>
+                </div>
+                    
+        
+                </section>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="flex-footer">
+                <img src="./images/logo.svg" alt="logo">
+
+                <div class="contact">
+                    <ul>
+                        <li>+1-543-123-4567</li>
+                        <li>example@fylo.com</li>
+                        <li>contact@fylo.com</li>
+                    </ul>
+                </div>
+
+                <div class="pages">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Press</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+                <div class="pages">
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+            
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
